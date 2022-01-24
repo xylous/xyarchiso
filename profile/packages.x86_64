@@ -1,5 +1,6 @@
 arch-install-scripts
 base
+dosfstools
 iw
 iwd
 linux
