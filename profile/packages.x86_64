@@ -3,6 +3,7 @@ base
 iw
 iwd
 linux
+man-db
 mkinitcpio
 mkinitcpio-archiso
 openssh
