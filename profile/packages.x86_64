@@ -10,6 +10,7 @@ mkinitcpio-archiso
 openssh
 pv
 qemu-guest-agent
+reflector
 syslinux
 vim
 virtualbox-guest-utils-nox
