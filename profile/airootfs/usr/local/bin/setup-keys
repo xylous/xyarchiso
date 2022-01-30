@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 ## setup-keys, written by xylous <xylous.e@gmail.com>
-# If the mirror lists are configured, then initialise the key database
+# If the mirrorlist is configured, then initialise the key database
 
-if grep -v -e '^$' /etc/pacman.d/mirrorlist | grep -v '^#' &>/dev/null; then
+if grep -v -e '^$|^#' /etc/pacman.d/mirrorlist &>/dev/null; then
     pacman-key --init
     pacman-key --populate archlinux
 else
