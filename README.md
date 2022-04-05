@@ -15,7 +15,11 @@ configuring users.
 - Arch or an Arch-based distribution
 - `archiso` package, for `mkarchiso`
 
-## Building
+### Prebuilt
+
+Download the ISO file in the GitHub releases for this project.
+
+### Manual building
 
 Clone this repository locally and run `build.sh`:
 
